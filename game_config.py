@@ -1,0 +1,9 @@
+import os
+IMAGE_SIZE=128
+SCREEN_SIZE=512
+NUM_TILES_SIDE=4
+NUM_TILES_TOTAL=16
+MARGIN=4
+ASSET_DIR='assest'
+ASSET_FILE=[x for x in os.listdir(ASSET_DIR)]
+assert len(ASSET_FILE)==8
